@@ -23,7 +23,7 @@ export function Navbar() {
           <a href="#home" className="flex items-center gap-3">
             <img src={logo} alt="SRCEP Logo" className="h-12 md:h-14 w-auto" />
             <span className="hidden sm:block font-display font-bold text-lg text-foreground">
-              SR Cleanroom
+              SR Cleanroom and Engineering Projects
             </span>
           </a>
 

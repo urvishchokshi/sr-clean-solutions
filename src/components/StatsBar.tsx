@@ -16,9 +16,9 @@ const stats = [
   },
   {
     icon: Award,
-    value: 'ISO',
-    suffix: ' 9001:2015',
-    label: 'Certified Company',
+    value: 'ISO 9001:2015',
+    suffix: '',
+    label: 'QCFI, NFPA, AIF Certified',
   },
   {
     icon: MapPin,

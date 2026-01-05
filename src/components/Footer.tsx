@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Quote } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 import logo from '@/assets/srcep-logo.png';
 
 const quickLinks = [
@@ -31,19 +31,12 @@ export function Footer() {
               <img src={logo} alt="SRCEP Logo" className="h-12 w-auto bg-white rounded-lg p-1" />
               <div>
                 <h3 className="font-display font-bold text-lg">SR Cleanroom</h3>
-                <p className="text-sm text-primary-foreground/60">Engineering Project</p>
+                <p className="text-sm text-primary-foreground/60">and Engineering Projects</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Contamination Control Projects Co. — Leading consultants and engineers for HVAC, Cleanrooms, and Pharmaceutical Turnkey Projects.
             </p>
-            <div className="flex items-start gap-2 p-4 bg-primary-foreground/5 rounded-xl border border-primary-foreground/10">
-              <Quote className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-              <p className="text-sm italic text-primary-foreground/80">
-                "People do not care how much you know until they know how much you care."
-                <span className="block text-primary-foreground/60 mt-1">— Teddy Roosevelt</span>
-              </p>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -121,7 +114,7 @@ export function Footer() {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-primary-foreground/60">
-              © {new Date().getFullYear()} SR Cleanroom & Engineering Project. All rights reserved.
+              © {new Date().getFullYear()} SR Cleanroom and Engineering Projects. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm text-primary-foreground/60 hover:text-primary transition-colors">
