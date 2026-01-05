@@ -1,5 +1,4 @@
-import { Building2, Wind, Factory, Droplets, ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Building2, Wind, Factory, Droplets } from 'lucide-react';
 
 const services = [
   {
@@ -94,11 +93,6 @@ export function ServicesSection() {
                   ))}
                 </div>
 
-                {/* Link */}
-                <Button variant="ghost" className="p-0 h-auto text-primary hover:text-primary-dark group/btn">
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-                </Button>
               </div>
             );
           })}
